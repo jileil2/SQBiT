@@ -1,0 +1,106 @@
+[
+    {
+        "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/armaInv.cpp",
+        "file_last_write": 1753909500.0,
+        "definitions": [
+            {
+                "usr": "c:@F@armaInv#&1$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "armaInv(const arma::mat &)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/armaInv.cpp",
+                "line": 7,
+                "column": 11,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+        "file_last_write": 1753909699.0,
+        "definitions": [
+            {
+                "usr": "c:@F@cppkp#$@N@Eigen@S@Map>#$@N@Eigen@S@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#VI0#$@N@Eigen@S@Stride>#VI0#VI0#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cppkp(Eigen::Map<Eigen::MatrixXd>, Eigen::Map<Eigen::MatrixXd>)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 11,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@eigenMatMult#$@N@Eigen@S@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "eigenMatMult(Eigen::MatrixXd, Eigen::MatrixXd)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 16,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@eigenMapMatMult#$@N@Eigen@S@Map>#$@N@Eigen@S@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#VI0#$@N@Eigen@S@Stride>#VI0#VI0#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "eigenMapMatMult(const Eigen::Map<Eigen::MatrixXd>, Eigen::Map<Eigen::MatrixXd>)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 22,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@eigenMapMatMult2#$@N@Eigen@S@Map>#$@N@Eigen@S@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#VI0#$@N@Eigen@S@Stride>#VI0#VI0#S0_#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "eigenMapMatMult2(const Eigen::Map<Eigen::MatrixXd>, Eigen::Map<Eigen::MatrixXd>, int)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 28,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@neg#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "neg(double)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 37,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sum_cpp#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sum_cpp(NumericVector)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 42,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sum_rhotau#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sum_rhotau(NumericVector, const double)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 51,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@arma_dist#&1$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "arma_dist(const arma::mat &)",
+                "file": "/Users/jileilin/Desktop/Research/Quantile Regression/SQBiT/SQBiT/src/test.cpp",
+                "line": 60,
+                "column": 11,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]

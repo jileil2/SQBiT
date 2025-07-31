@@ -100,6 +100,7 @@
 #' B.pop <- B0.pop$B
 #' K <- B0.pop$K
 #' P <- t(Q2) %*% K %*% Q2
+#' BQ2.pop <- as.matrix(B.pop %*% Q2) ## basis function for population locations
 #'
 #' # Simulation parameters
 #' n <- 2000
