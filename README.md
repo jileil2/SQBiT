@@ -38,6 +38,7 @@ There are several main functions for implementing SQBiT.
 devtools::install_github('FIRST-Data-Lab/BPST', force = TRUE)
 devtools::install_github('funstatpackages/Triangulation', force = TRUE)
 devtools::install_github('jileil2/SQBiT', force = TRUE)
+```
 
 ## Contact
 If you have any questions about the codes, please contact jileil2@gwmail.gwu.edu.
