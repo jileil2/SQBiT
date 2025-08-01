@@ -13,8 +13,8 @@ We propose a Smoothed Quantile Bivariate Triangulation method (SQBiT), which com
 
 We discuss the inference of the QSM for constant and varying coefficients separately. 
 
-1. For varying coefficients, we develop a confidence interval construction procedure based on wild bootstrap. Its implementation is based on `smqsvcm_admm.wb.R`, see Section Main Functions.
-2. For constant coefficients, we develop interval estimation procedures based on asymptotic normality and wild bootstrap. The former is based on `SQBiT.R` or `tune.lambda.R` while the latter is based on `smqsvcm_admm.wb.R`. See Section Main Functions for details.
+1. For varying coefficients, we develop a confidence interval construction procedure based on wild bootstrap. Its implementation is based on `SQBiT_wb.R`, see Section Main Functions.
+2. For constant coefficients, we develop interval estimation procedures based on asymptotic normality and wild bootstrap. The former is based on `SQBiT.R` or `SQBiT_gacv.R` while the latter is based on `SQBiT_wb.R`. See Section Main Functions for details.
 
 ## Instructions for use
 
@@ -31,6 +31,13 @@ There are several main functions for implementing SQBiT.
 3. `SQBiT_cv.R` contains the codes for selecting penalization parameters selected by k-fold CV.
 4. `SQBiT_wb.R` contains the codes for wild bootstrap inference of SQBiT
 5. `SQBiT_forward.R` contains the codes for forward selection of QSM using GACV
+
+### How to install the packages in R?
+
+```r
+devtools::install_github('FIRST-Data-Lab/BPST', force = TRUE)
+devtools::install_github('funstatpackages/Triangulation', force = TRUE)
+devtools::install_github('jileil2/SQBiT', force = TRUE)
 
 ## Contact
 If you have any questions about the codes, please contact jileil2@gwmail.gwu.edu.
